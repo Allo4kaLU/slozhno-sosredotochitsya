@@ -2,4 +2,28 @@
 
 .page {
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
+  width: min(100%, 1024px);
+  font-family: var(--main-font);
+  background-color: var(--bg-color);
+  color: var(--main-color);
+}
+.header {
+  display: grid;
+  padding: 10px;
+}
+
+.header__decor {
+  position: absolute;
+}
+
+.header__about {
+  background-color: var(--accent-bg-color);
+  color: var(--bg-color);
+  font-weight: bold;
+}
+
+.header__title {
+  text-shadow: 4px 4px 0px #FF0070;
+  font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  color: var(--accent-color);
 }
