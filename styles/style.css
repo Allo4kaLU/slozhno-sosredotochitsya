@@ -2,14 +2,17 @@
 
 .page {
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
-  width: min(100%, 1024px);
   font-family: var(--main-font);
   background-color: var(--bg-color);
   color: var(--main-color);
+  padding: 10px;
+  font-size: 18px;
+  line-height: 130%;
 }
 .header {
+  min-block-size: 668px;
   display: grid;
-  padding: 10px;
+  background-image: url(../images/cover-image-dark.png);
 }
 
 .header__decor {
@@ -20,10 +23,45 @@
   background-color: var(--accent-bg-color);
   color: var(--bg-color);
   font-weight: bold;
+  max-inline-size: 491px;
+  
 }
 
 .header__title {
   text-shadow: 4px 4px 0px #FF0070;
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  line-height: 82.5%;
   color: var(--accent-color);
+}
+
+.content__title {
+  background-color: var(--accent-bg-color);
+  color: var(--bg-color);
+  font-size: 18px;
+  margin-block-end: 10px;
+}
+
+.content__main-title {
+  color: var(--accent-bg-color);
+  font-size: 18px;
+  margin-block-end: 20px;
+}
+
+.content__text {
+  margin-block-end: 20px;
+}
+
+.content__title-group {
+  color: var(--bg-color);
+  background-color: var(--accent-bg-color);
+  font-weight: normal;
+  margin-block-end: 10px;
+}
+
+.content__text-group {
+  margin-block-end: 20px;
+}
+
+img {  
+  padding: 10px;
 }
