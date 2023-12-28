@@ -16,4 +16,8 @@
     --font-color: #353430;
     --font-nav-color: #353430;
     background-image: url(../images/cover-image-light.png);
+
+    .header__decor {
+      display: none;
+    }
 }
