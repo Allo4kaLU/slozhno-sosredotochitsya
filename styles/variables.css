@@ -10,4 +10,5 @@
   --font-color: rgba(0, 0, 40, 1);
   --accent-color: rgba(219, 0, 255, 1);
   --main-font: "IBM Plex Mono", sans-serif;
+  --background-image: url(../images/cover-image-dark.png);
 }
