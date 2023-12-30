@@ -171,8 +171,7 @@
 }
 
 .content__title-images {
-  margin: 10px;
-  margin-block-start: 50px;
+  margin: 50px 10px 10px 10px;
 }
 
 .content__article {
@@ -184,13 +183,13 @@
 .content__article:focus-visible {
   outline: 1px solid var(--main-color);
   outline-offset: -2px;
-  } 
+}
 
 .content__article:hover {
   border: 1px solid var(--main-color);
   border-block-start: none;
   border-inline-start: none;
-  border-inline-end: none;  
+  border-inline-end: none;
 }
 
 .images {
